@@ -57,7 +57,7 @@ export function SmsWaitScreen({
 
       {snap.mockConfirmUrl && (
         <a
-          href={snap.mockConfirmUrl}
+          href={new URL(snap.mockConfirmUrl).pathname}
           target="_blank"
           rel="noreferrer"
           className="mt-4 rounded-full bg-warn-soft px-4 py-2 text-[14px] font-semibold text-warn"
