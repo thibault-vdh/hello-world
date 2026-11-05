@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Workforce Security &amp; Human Risk Management | Noon Security</title>
+  <meta name="description" content="Protect your workforce with Noon Security. Combine email security, device protection, AI governance, phishing simulations and security awareness training.">
+  <meta property="og:title" content="Workforce Security &amp; Human Risk Management | Noon Security">
+  <meta property="og:description" content="Protect your workforce with Noon Security. Combine email security, device protection, AI governance, phishing simulations and security awareness training.">
+  <meta property="og:image" content="assets/img/og.jpg">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="preload" href="assets/fonts/NewGrotesk-Regular.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="assets/fonts/Merriweather-300.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============================== NAV ============================== -->
+  <header class="nav" data-nav>
+    <div class="container nav__inner">
+      <a class="nav__logo" href="/" aria-label="Noon home"><svg aria-hidden="true" focusable="false" viewBox="0 0 112 17" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M15.2706 0C6.85468 0 0.0288642 7.54124 9.13004e-05 16.856H30.5411C30.5124 7.54124 23.6865 0 15.2706 0Z" fill="#F64718"></path> <path d="M99.5635 16.7197H95.1936V0.951827H99.5786C99.5786 2.12315 99.3683 3.18936 98.7676 4.97638L99.068 5.11153C100.42 2.10814 102.627 0.666504 105.901 0.666504C109.505 0.666504 111.442 2.40848 111.442 5.71221V16.7197H107.072V6.7634C107.072 4.72109 106.051 3.63987 103.994 3.63987C101.23 3.63987 99.5635 5.84737 99.5635 9.39138V16.7197Z" fill="#111111"></path> <path d="M40.5214 16.7197V0.951827H44.9064C44.9064 1.5425 44.8463 2.13817 44.7262 2.73885C44.606 3.33953 44.3958 4.08537 44.0955 4.97638L44.3958 5.11153C45.0766 3.60983 45.9776 2.49357 47.0989 1.76274C48.2201 1.03192 49.5967 0.666504 51.2285 0.666504C53.0306 0.666504 54.4021 1.09699 55.3432 1.95797C56.2943 2.80893 56.7698 4.06034 56.7698 5.71221V16.7197H52.3999V6.7634C52.3999 5.73224 52.1396 4.95636 51.619 4.43577C51.1084 3.90517 50.3425 3.63987 49.3214 3.63987C48.4103 3.63987 47.6195 3.87513 46.9487 4.34567C46.2879 4.80619 45.7774 5.47194 45.417 6.34293C45.0666 7.2039 44.8914 8.22005 44.8914 9.39138V16.7197H40.5214Z" fill="#111111"></path> <path d="M84.7823 16.8883C87.2005 16.8883 89.1005 16.1673 90.5112 14.6966C91.893 13.2258 92.5839 11.2648 92.5839 8.78473C92.5839 6.30463 91.893 4.34362 90.5112 2.87287C89.1005 1.40211 87.2005 0.681152 84.7823 0.681152C82.3352 0.681152 80.4352 1.40211 79.0534 2.87287C77.6715 4.34362 76.9806 6.30463 76.9806 8.78473C76.9806 11.2648 77.6715 13.2258 79.0534 14.6966C80.4352 16.1673 82.3352 16.8883 84.7823 16.8883ZM84.7823 13.7449C83.5444 13.7449 82.6231 13.3123 81.961 12.4472C81.2989 11.6109 80.9822 10.3708 80.9822 8.78473C80.9822 7.19862 81.2989 5.95857 81.961 5.09342C82.6231 4.22827 83.5444 3.79569 84.7823 3.79569C86.0202 3.79569 86.9414 4.22827 87.6035 5.09342C88.2657 5.95857 88.5823 7.19862 88.5823 8.78473C88.5823 10.3708 88.2657 11.6109 87.6035 12.4472C86.9414 13.3123 86.0202 13.7449 84.7823 13.7449Z" fill="#111111"></path> <path d="M67.5807 16.8883C69.999 16.8883 71.899 16.1673 73.3096 14.6966C74.6915 13.2258 75.3824 11.2648 75.3824 8.78473C75.3824 6.30463 74.6915 4.34362 73.3096 2.87287C71.899 1.40211 69.999 0.681152 67.5807 0.681152C65.1337 0.681152 63.2337 1.40211 61.8518 2.87287C60.47 4.34362 59.7791 6.30463 59.7791 8.78473C59.7791 11.2648 60.47 13.2258 61.8518 14.6966C63.2337 16.1673 65.1337 16.8883 67.5807 16.8883ZM67.5807 13.7449C66.3428 13.7449 65.4216 13.3123 64.7595 12.4472C64.0973 11.6109 63.7806 10.3708 63.7806 8.78473C63.7806 7.19862 64.0973 5.95857 64.7595 5.09342C65.4216 4.22827 66.3428 3.79569 67.5807 3.79569C68.8186 3.79569 69.7399 4.22827 70.402 5.09342C71.0641 5.95857 71.3808 7.19862 71.3808 8.78473C71.3808 10.3708 71.0641 11.6109 70.402 12.4472C69.7399 13.3123 68.8186 13.7449 67.5807 13.7449Z" fill="#111111"></path> </svg></a>
+
+      <nav class="nav__menu" aria-label="Main">
+        <div class="nav__dropdown" data-dropdown>
+          <button class="nav__link" type="button" aria-expanded="false" aria-controls="products-menu">Products <svg aria-hidden="true" focusable="false" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg"> <g clip-path="url(#clip0_1235_29220)"> <path d="M9 2.28226C9 2.28226 6.05407 5.78223 5 5.78223C3.94587 5.78223 1 2.28223 1 2.28223" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path> </g> <defs> <clipPath id="clip0_1235_29220"> <rect width="10" height="8" fill="currentColor"></rect> </clipPath> </defs> </svg></button>
+          <div class="dropdown" id="products-menu">
+            <div class="dropdown__links">
+              <a class="dropdown__item" href="https://noon.security/features/email-protection" data-preview="0">
+                <span class="dropdown__icon"><svg aria-hidden="true" focusable="false" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M1.16675 3.20834L5.19934 5.49324C6.68602 6.33559 7.31415 6.33559 8.80083 5.49324L12.8334 3.20834" stroke="currentColor" stroke-linejoin="round"></path> <path d="M12.8242 7.5691C12.8365 6.99411 12.8365 6.42256 12.8242 5.84757C12.7861 4.05934 12.767 3.16522 12.1072 2.50289C11.4474 1.84055 10.5291 1.81748 8.69245 1.77133C7.56049 1.74289 6.43967 1.74289 5.30773 1.77133C3.47111 1.81747 2.55279 1.84054 1.89297 2.50288C1.23314 3.16521 1.21408 4.05933 1.17594 5.84757C1.16368 6.42256 1.16369 6.99411 1.17595 7.5691C1.21408 9.35737 1.23315 10.2514 1.89297 10.9138C2.55279 11.5761 3.47111 11.5992 5.30773 11.6453C6.06908 11.6645 6.82537 11.6708 7.58341 11.6642" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M10.7917 8.16666L10.9421 8.57324C11.1394 9.10641 11.238 9.37299 11.4325 9.56747C11.627 9.76196 11.8936 9.8606 12.4268 10.0579L12.8333 10.2083L12.4268 10.3588C11.8936 10.556 11.627 10.6547 11.4325 10.8492C11.238 11.0437 11.1394 11.3102 10.9421 11.8434L10.7917 12.25L10.6412 11.8434C10.4439 11.3102 10.3453 11.0437 10.1508 10.8492C9.95633 10.6547 9.68975 10.556 9.15658 10.3588L8.75 10.2083L9.15658 10.0579C9.68975 9.8606 9.95633 9.76196 10.1508 9.56747C10.3453 9.37299 10.4439 9.10641 10.6412 8.57324L10.7917 8.16666Z" stroke="currentColor" stroke-linejoin="round"></path> </svg></span>
+                <span class="dropdown__title">Email Protection</span>
+                <span class="dropdown__desc">Protect your team from AI phishing attacks.</span>
+              </a>
+              <a class="dropdown__item" href="https://noon.security/features/ai-governance" data-preview="1">
+                <span class="dropdown__icon"><svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <g clip-path="url(#clip0_956_525072)"> <path d="M2.66683 10.9998C2.66683 12.1043 3.56226 12.9998 4.66683 12.9998C4.66683 13.9202 5.41302 14.6664 6.3335 14.6664C7.25396 14.6664 8.00016 13.9202 8.00016 12.9998C8.00016 13.9202 8.74636 14.6664 9.66683 14.6664C10.5873 14.6664 11.3335 13.9202 11.3335 12.9997C12.4381 12.9997 13.3335 12.1042 13.3335 10.9997C13.3335 10.6206 13.228 10.2661 13.0448 9.96403C13.9686 9.7873 14.6668 8.97503 14.6668 7.9997C14.6668 7.0243 13.9686 6.21204 13.0448 6.03533C13.228 5.73325 13.3335 5.37878 13.3335 4.99967C13.3335 3.8951 12.4381 2.99967 11.3335 2.99967C11.3335 2.07919 10.5873 1.33301 9.66683 1.33301C8.74636 1.33301 8.00016 2.07926 8.00016 2.99973C8.00016 2.07926 7.25396 1.33307 6.3335 1.33307C5.41302 1.33307 4.66683 2.07926 4.66683 2.99973C3.56226 2.99973 2.66683 3.89517 2.66683 4.99973C2.66683 5.37884 2.77231 5.73331 2.95552 6.0354C2.03168 6.2121 1.3335 7.02437 1.3335 7.99977C1.3335 8.9751 2.03168 9.78737 2.95552 9.9641C2.77231 10.2662 2.66683 10.6206 2.66683 10.9998Z" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M5 9.66652L6.22793 5.98273C6.29087 5.79388 6.4676 5.6665 6.66667 5.6665C6.86573 5.6665 7.04247 5.79388 7.1054 5.98273L8.33333 9.66652M10.3333 5.6665V9.66652M5.66667 8.33318H7.66667" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path> </g> <defs> <clipPath id="clip0_956_525072"> <rect width="16" height="16" fill="white"></rect> </clipPath> </defs> </svg></span>
+                <span class="dropdown__title">AI Governance</span>
+                <span class="dropdown__desc">See which AI tools and apps your team uses.</span>
+              </a>
+              <a class="dropdown__item" href="https://noon.security/features/device-protection" data-preview="2">
+                <span class="dropdown__icon"><svg aria-hidden="true" focusable="false" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M12 10.125V13.125C12 14.1856 12 14.716 12.3295 15.0455C12.659 15.375 13.1894 15.375 14.25 15.375C15.3107 15.375 15.841 15.375 16.1704 15.0455C16.5 14.716 16.5 14.1856 16.5 13.125V10.125C16.5 9.06435 16.5 8.53402 16.1704 8.20455C15.841 7.875 15.3107 7.875 14.25 7.875C13.1894 7.875 12.659 7.875 12.3295 8.20455C12 8.53402 12 9.06435 12 10.125Z" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M3 12.3755V6.37549C3 4.60772 3 3.72383 3.5495 3.17466C4.099 2.62549 4.9834 2.62549 6.75221 2.62549H12.0053C13.7741 2.62549 14.6585 2.62549 15.2081 3.17466C15.626 3.59239 15.726 4.20377 15.75 5.25049" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M9.75002 15.3755H1.88684C1.59964 15.3755 1.41284 15.0821 1.54129 14.8328L3 12.3755H9.75002" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path> </svg></span>
+                <span class="dropdown__title">Device Protection</span>
+                <span class="dropdown__desc">Keep your employee devices safe</span>
+              </a>
+              <a class="dropdown__item" href="https://noon.security/features/attack-simulations" data-preview="3">
+                <span class="dropdown__icon"><svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M8.5 3.70802C8.19377 3.57422 7.85555 3.5 7.5 3.5C6.11929 3.5 5 4.61929 5 6C5 6.8178 5.39267 7.54389 5.99976 8" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M3.375 16.5001C2.61561 16.5001 2 15.8589 2 15.0678C2 13.4586 3.66644 11.8493 6.5 11.5403" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15.5 3.70753C15.8062 3.57374 16.1444 3.49951 16.5 3.49951C17.8807 3.49951 19 4.6188 19 5.99951C19 6.81731 18.6073 7.5434 18.0002 7.99951" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M20.6248 16.4996C21.3842 16.4996 21.9998 15.8583 21.9998 15.0673C21.9998 13.4581 20.3334 11.8489 17.5 11.5398" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M12 11.5C13.6569 11.5 15 10.1569 15 8.5C15 6.84315 13.6569 5.5 12 5.5C10.3431 5.5 9 6.84315 9 8.5C9 10.1569 10.3431 11.5 12 11.5Z" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M12 14.5C8.25 14.5 6 16.6429 6 18.7857C6 19.7325 6.67157 20.5 7.5 20.5H16.5C17.3284 20.5 18 19.7325 18 18.7857C18 16.6429 15.75 14.5 12 14.5Z" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path> </svg></span>
+                <span class="dropdown__title">Simulations &amp; Training</span>
+                <span class="dropdown__desc">Turn attacks into prevention training.</span>
+              </a>
+            </div>
+            <div class="dropdown__preview" aria-hidden="true">
+              <figure class="is-active"><img class="bg" src="assets/img/explainer-bg-email.avif" alt=""><img class="fg" src="assets/img/explainer-email.avif" alt=""></figure>
+              <figure><img class="bg" src="assets/img/explainer-bg-ai.avif" alt=""><img class="fg" src="assets/img/explainer-ai.avif" alt=""></figure>
+              <figure><img class="bg" src="assets/img/explainer-bg-device.avif" alt=""><img class="fg" src="assets/img/explainer-device.avif" alt=""></figure>
+              <figure><img class="bg" src="assets/img/explainer-bg-sim.avif" alt=""><img class="fg" src="assets/img/explainer-sim.avif" alt=""></figure>
+            </div>
+          </div>
+        </div>
+        <a class="nav__link" href="https://noon.security/partners/vars">Partners</a>
+        <a class="nav__link" href="https://noon.security/pricing">Pricing</a>
+        <a class="nav__link" href="https://noon.security/contact">Contact</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a class="nav__login" href="https://noon.security/book/demo">Book a demo</a>
+        <a class="btn btn--primary" href="https://noon.security/request-early-access">Get early access</a>
+      </div>
+
+      <button class="nav__toggle" type="button" aria-label="Open menu" aria-expanded="false" data-nav-toggle><span></span></button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============================== HERO ============================== -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <h1 class="h1">Protect your workforce from AI&#8209;powered attacks.</h1>
+          <p class="lede">One unified platform to stop phishing, protect devices, govern AI-usage and train your people.</p>
+          <form class="signup" data-signup novalidate>
+            <div class="signup__field">
+              <label class="sr-only" for="email-light">Work email</label>
+              <input class="signup__input" id="email-light" type="email" name="email" placeholder="jess@company.com*" autocomplete="email" required>
+              <button class="signup__submit" type="submit">Get Early Access</button>
+            </div>
+            <p class="signup__note">Data processing per Noon Security's <a href="https://noon.security/legal/privacy">Privacy Policy</a>.</p>
+            <p class="signup__msg" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+        <div class="hero__visual">
+          <img class="hero__visual-bg" src="assets/img/hero-visual-bg.avif" alt="" fetchpriority="high">
+          <img class="hero__visual-img" src="assets/img/hero-dashboard.avif" alt="The Noon dashboard showing scanned, malicious and spam emails, with a phishing training prompt" fetchpriority="high">
+        </div>
+      </div>
+    </section>
+
+    <section class="logos" aria-label="Trusted by">
+      <div class="container logos__inner">
+        <p class="logos__text">
+          <span class="logos__aikido">an <a href="https://www.aikido.dev/" target="_blank" rel="noopener"><svg aria-hidden="true" focusable="false" viewBox="0 0 31 34" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M30.9015 0H0V10.6758H30.9015V0Z" fill="currentColor"></path> <path d="M0 20.689C8.79112 12.908 22.1103 12.908 30.9015 20.689V33.994L30.8954 34L15.4507 18.6723L0.00605831 34L0 33.994V20.689Z" fill="currentColor"></path> </svg>aikido</a> company</span>
+          <span class="logos__sep">|</span>
+          <span>Trusted by 150k orgs</span>
+        </p>
+        <div class="marquee">
+          <div class="marquee__track">
+            <div class="marquee__group"><img src="assets/logos/n8n.svg" alt="n8n" loading="lazy"><img src="assets/logos/revolut.svg" alt="Revolut" loading="lazy"><img src="assets/logos/visma.svg" alt="Visma" loading="lazy"><img src="assets/logos/soundcloud.svg" alt="SoundCloud" loading="lazy"><img src="assets/logos/too-good-to-go.png" alt="Too Good To Go" loading="lazy"><img src="assets/logos/deel.svg" alt="Deel" loading="lazy"><img src="assets/logos/joe-and-the-juice.png" alt="Joe &amp; The Juice" loading="lazy"></div>
+            <div class="marquee__group" aria-hidden="true"><img src="assets/logos/n8n.svg" alt="" loading="lazy"><img src="assets/logos/revolut.svg" alt="" loading="lazy"><img src="assets/logos/visma.svg" alt="" loading="lazy"><img src="assets/logos/soundcloud.svg" alt="" loading="lazy"><img src="assets/logos/too-good-to-go.png" alt="" loading="lazy"><img src="assets/logos/deel.svg" alt="" loading="lazy"><img src="assets/logos/joe-and-the-juice.png" alt="" loading="lazy"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== VIDEO ============================== -->
+    <section class="video" data-video data-vimeo-id="1237624568" aria-label="Product video">
+      <div class="container">
+        <div class="video__frame">
+          <video src="assets/video/intro-snippet.mp4" autoplay muted loop playsinline preload="metadata" aria-hidden="true"></video>
+          <div class="video__overlay"></div>
+          <button class="video__play" type="button" aria-label="Play the Noon product video"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" class="vimeo-player__btn-play-svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.38178 6.13982C6.40762 5.94017 6.48425 5.74878 6.60555 5.58089C6.72686 5.413 6.88949 5.27326 7.08049 5.17279C7.2715 5.07232 7.48559 5.01391 7.70574 5.00219C7.92587 4.99048 8.14597 5.02579 8.3485 5.10532C9.37235 5.50436 11.6669 6.45272 14.5784 7.98469C17.4908 9.51754 19.5395 10.8562 20.4294 11.4635C21.1891 11.9829 21.191 13.013 20.4304 13.5342C19.5491 14.1381 17.5256 15.4591 14.5784 17.0113C11.6283 18.5635 9.36078 19.5005 8.34657 19.8942C7.47311 20.2343 6.49554 19.7183 6.38178 18.8597C6.24873 17.856 6 15.5769 6 12.4989C6 9.42262 6.24777 7.14443 6.38178 6.13982Z" fill="currentColor"></path></svg></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== STATS ============================== -->
+    <section class="stats">
+      <div class="stats__card">
+        <div class="stats__content">
+          <h2 class="h2 stats__title"><span>People get targeted before systems do.</span> <span>Noon protects the people.</span></h2>
+          <div class="stats__grid">
+            <div class="stat">
+              <p class="stat__value">54%</p>
+              <p class="stat__label">Of people click AI phishing email<br>(versus 12% ordinary)</p>
+            </div>
+            <div class="stat">
+              <p class="stat__value">62%</p>
+              <p class="stat__label">Of companies experienced a deepfake attack</p>
+            </div>
+            <div class="stat">
+              <p class="stat__value">$3.05B</p>
+              <p class="stat__label">Lost last year to phishing attacks</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== PROTECT (TABS) ============================== -->
+    <section class="protect">
+      <div class="container">
+        <div class="section-head">
+          <svg aria-hidden="true" focusable="false" width="40" height="22" viewBox="0 0 40 22" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M19.8743 0C8.92119 0 0.0375662 9.81472 0.000118826 21.9377H39.7485C39.711 9.81472 30.8274 0 19.8743 0Z" fill="#F64718"></path> </svg>
+          <h2 class="h2 protect__title"><span>Protect your team.</span> <span>Everywhere they work.</span></h2>
+        </div>
+
+        <div class="tabs" role="tablist" aria-label="What Noon protects" data-tabs>
+          <button class="tabs__item" type="button" role="tab" aria-selected="true" aria-controls="tabs-visual" data-tab="0">
+            <img class="tabs__mobile-img" src="assets/img/tabs-mobile-01.avif" alt="">
+            <span class="tabs__icon"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M16.5 20V16C14.9032 14.7725 12.5827 14 10 14C7.41727 14 5.09679 14.7725 3.5 16V20" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"></path> <path d="M20.5 20.0004V16.0004C20.0533 15.657 19.5499 15.3492 19 15.084" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"></path> <path d="M10 11C11.933 11 13.5 9.433 13.5 7.5C13.5 5.567 11.933 4 10 4C8.067 4 6.5 5.567 6.5 7.5C6.5 9.433 8.067 11 10 11Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"></path> <path d="M15 4.14453C16.4457 4.57481 17.5 5.91408 17.5 7.49959C17.5 9.0851 16.4457 10.4244 15 10.8547" stroke="currentColor" stroke-width="1.5"></path> </svg></span>
+            <span class="h3">Protect your team</span>
+            <p>Test employees with realistic attack scenarios, personalized by role, behavior and risk-level.</p>
+          </button>
+          <button class="tabs__item" type="button" role="tab" aria-selected="false" aria-controls="tabs-visual" data-tab="1">
+            <img class="tabs__mobile-img" src="assets/img/tabs-mobile-02.avif" alt="">
+            <span class="tabs__icon"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"> <path d="M2 5.5L8.91302 9.41697C11.4616 10.861 12.5384 10.861 15.087 9.41697L22 5.5" stroke="currentColor" stroke-width="1.33333" stroke-linejoin="round"></path> <path d="M21.9842 12.9756C22.0053 11.9899 22.0053 11.0101 21.9842 10.0244C21.9189 6.95886 21.8862 5.42609 20.7551 4.29066C19.6239 3.15523 18.0497 3.11568 14.9012 3.03657C12.9607 2.98781 11.0393 2.98781 9.09882 3.03656C5.95033 3.11566 4.37608 3.15521 3.24495 4.29065C2.11382 5.42608 2.08114 6.95885 2.01576 10.0244C1.99474 11.0101 1.99475 11.9899 2.01577 12.9756C2.08114 16.0412 2.11383 17.5739 3.24496 18.7094C4.37608 19.8448 5.95033 19.8843 9.09883 19.9634C10.404 19.9962 11.7005 20.007 13 19.9957" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M18.5 14L18.7579 14.697C19.0961 15.611 19.2652 16.068 19.5986 16.4014C19.932 16.7348 20.389 16.9039 21.303 17.2421L22 17.5L21.303 17.7579C20.389 18.0961 19.932 18.2652 19.5986 18.5986C19.2652 18.932 19.0961 19.389 18.7579 20.303L18.5 21L18.2421 20.303C17.9039 19.389 17.7348 18.932 17.4014 18.5986C17.068 18.2652 16.611 18.0961 15.697 17.7579L15 17.5L15.697 17.2421C16.611 16.9039 17.068 16.7348 17.4014 16.4014C17.7348 16.068 17.9039 15.611 18.2421 14.697L18.5 14Z" stroke="currentColor" stroke-width="1.33333" stroke-linejoin="round"></path> </svg></span>
+            <span class="h3">Protect your inbox</span>
+            <p>Agentic email protection analyzes your inbox and catches threats that filters miss.</p>
+          </button>
+          <button class="tabs__item" type="button" role="tab" aria-selected="false" aria-controls="tabs-visual" data-tab="2">
+            <img class="tabs__mobile-img" src="assets/img/tabs-mobile-03.avif" alt="">
+            <span class="tabs__icon"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"> <path d="M16 13.5001V17.5001C16 18.9143 16 19.6214 16.4393 20.0608C16.8787 20.5001 17.5858 20.5001 19 20.5001C20.4142 20.5001 21.1213 20.5001 21.5606 20.0608C22 19.6214 22 18.9143 22 17.5001V13.5001C22 12.0859 22 11.3788 21.5606 10.9395C21.1213 10.5001 20.4142 10.5001 19 10.5001C17.5858 10.5001 16.8787 10.5001 16.4393 10.9395C16 11.3788 16 12.0859 16 13.5001Z" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M4 16.5005V8.50049C4 6.14347 4 4.96495 4.73266 4.23272C5.46533 3.50049 6.64454 3.50049 9.00295 3.50049H16.0071C18.3655 3.50049 19.5447 3.50049 20.2774 4.23272C20.8347 4.78969 20.968 5.60486 21 7.00049" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M13 20.5005H2.51579C2.13285 20.5005 1.88379 20.1093 2.05505 19.7769L4 16.5005H13" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path> </svg></span>
+            <span class="h3">Protect your devices</span>
+            <p>Noon stops malware before it runs and blocks risky extensions and sites, directly on employee devices.</p>
+          </button>
+          <button class="tabs__item" type="button" role="tab" aria-selected="false" aria-controls="tabs-visual" data-tab="3">
+            <img class="tabs__mobile-img" src="assets/img/tabs-mobile-04.avif" alt="">
+            <span class="tabs__icon"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"> <path d="M2.5 8.18677C2.60406 6.08705 2.91537 4.77792 3.84664 3.84664C4.77792 2.91537 6.08705 2.60406 8.18677 2.5M21.5 8.18677C21.3959 6.08705 21.0846 4.77792 20.1534 3.84664C19.2221 2.91537 17.9129 2.60406 15.8132 2.5M15.8132 21.5C17.9129 21.3959 19.2221 21.0846 20.1534 20.1534C21.0846 19.2221 21.3959 17.9129 21.5 15.8132M8.18676 21.5C6.08705 21.3959 4.77792 21.0846 3.84664 20.1534C2.91537 19.2221 2.60406 17.9129 2.5 15.8132" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M17.5 17L17.2978 16.1511C17.1307 15.4497 16.5989 14.8925 15.9061 14.6929L13.5 13.9994L13.4997 12.5318C14.3964 11.9266 14.9997 10.7955 14.9997 9.5C14.9997 7.567 13.6565 6 11.9997 6C10.3428 6 8.99966 7.567 8.99966 9.5C8.99966 10.7955 9.60296 11.9266 10.4997 12.5318L10.5 13.9994L8.10885 14.6994C7.43747 14.896 6.91757 15.429 6.73787 16.1051L6.5 17" stroke="currentColor" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"></path> </svg></span>
+            <span class="h3">Protect your AI use</span>
+            <p>See which AI tools your team uses, keep sensitive data out of prompts and control safe usage.</p>
+          </button>
+          <div class="tabs__visual" id="tabs-visual" role="tabpanel" aria-live="polite">
+            <img class="tabs__visual-bg" src="assets/img/tabs-bg.avif" alt="">
+            <img class="tabs__visual-img is-active" src="assets/img/tabs-01.avif" alt="Noon sending a new training to your team" data-panel="0">
+            <img class="tabs__visual-img" src="assets/img/tabs-02.avif" alt="Noon flagging a phishing email in the inbox" data-panel="1">
+            <img class="tabs__visual-img" src="assets/img/tabs-03.avif" alt="Noon blocking a threat on an employee device" data-panel="2">
+            <img class="tabs__visual-img" src="assets/img/tabs-04.avif" alt="Noon detecting AI tool usage" data-panel="3">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== HOW WE PROTECT ============================== -->
+    <section class="how">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow eyebrow--pill">How we protect you</span>
+          <h2 class="h2">From protection to prevention</h2>
+        </div>
+
+        <div class="how__menu-wrap">
+          <nav class="how__menu" aria-label="Product areas" data-how-menu>
+            <a href="#email" class="is-active">Email</a>
+            <a href="#device-protection">Device protection</a>
+            <a href="#ai">AI governance</a>
+            <a href="#simulation">Simulations &amp; training</a>
+          </nav>
+        </div>
+
+        <div class="explainers">
+          <article class="explainer" id="email">
+            <div class="explainer__content">
+              <span class="eyebrow"><svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M2.5 16.5C2.5 17.4293 2.5 17.894 2.57686 18.2804C2.89249 19.8671 4.13288 21.1075 5.71964 21.4231C6.10603 21.5 6.57069 21.5 7.5 21.5M21.5 16.5C21.5 17.4293 21.5 17.894 21.4231 18.2804C21.1075 19.8671 19.8671 21.1075 18.2804 21.4231C17.894 21.5 17.4293 21.5 16.5 21.5M21.5 7.5C21.5 6.57069 21.5 6.10603 21.4231 5.71964C21.1075 4.13288 19.8671 2.89249 18.2804 2.57686C17.894 2.5 17.4293 2.5 16.5 2.5M2.5 7.5C2.5 6.57069 2.5 6.10603 2.57686 5.71964C2.89249 4.13288 4.13288 2.89249 5.71964 2.57686C6.10603 2.5 6.57069 2.5 7.5 2.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M6.16675 8.20831L10.1993 10.4932C11.686 11.3356 12.3141 11.3356 13.8008 10.4932L17.8334 8.20831" stroke="currentColor" stroke-linejoin="round"></path> <path d="M17.8242 12.5691C17.8365 11.9941 17.8365 11.4226 17.8242 10.8476C17.7861 9.05934 17.767 8.16522 17.1072 7.50289C16.4474 6.84055 15.5291 6.81748 13.6924 6.77133C12.5605 6.74289 11.4397 6.74289 10.3077 6.77133C8.47111 6.81747 7.55279 6.84054 6.89297 7.50288C6.23314 8.16521 6.21408 9.05933 6.17594 10.8476C6.16368 11.4226 6.16369 11.9941 6.17595 12.5691C6.21408 14.3574 6.23315 15.2514 6.89297 15.9138C7.55279 16.5761 8.47111 16.5992 10.3077 16.6453C11.0691 16.6645 11.8254 16.6708 12.5834 16.6642" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15.7917 13.1667L15.9421 13.5733C16.1394 14.1064 16.238 14.373 16.4325 14.5675C16.627 14.762 16.8936 14.8606 17.4268 15.0579L17.8333 15.2083L17.4268 15.3588C16.8936 15.556 16.627 15.6547 16.4325 15.8492C16.238 16.0437 16.1394 16.3102 15.9421 16.8434L15.7917 17.25L15.6412 16.8434C15.4439 16.3102 15.3453 16.0437 15.1508 15.8492C14.9563 15.6547 14.6897 15.556 14.1566 15.3588L13.75 15.2083L14.1566 15.0579C14.6897 14.8606 14.9563 14.762 15.1508 14.5675C15.3453 14.373 15.4439 14.1064 15.6412 13.5733L15.7917 13.1667Z" stroke="currentColor" stroke-linejoin="round"></path> </svg> Email protection</span>
+              <h3 class="h3">Protect your inboxes from malware &amp; AI phishing attacks</h3>
+              <p>Autonomously stop targeted attacks and malicious emails that legacy filters miss.</p>
+              <a class="link-arrow" href="https://noon.security/features/email-protection">Learn more <svg aria-hidden="true" focusable="false" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M5 13.5L11 8L5 2.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </svg></a>
+              <div class="explainer__tags">
+                <a href="https://noon.security/features/email-protection">Payment Fraud</a>
+                <a href="https://noon.security/features/email-protection">BEC</a>
+                <a href="https://noon.security/features/email-protection">Executive Impersonation</a>
+                <a href="https://noon.security/features/email-protection">AI Phishing</a>
+                <a href="https://noon.security/features/email-protection">Credential Theft</a>
+                <a href="https://noon.security/features/email-protection">QR Attacks</a>
+                <a href="https://noon.security/features/email-protection">Account Takeover</a>
+              </div>
+            </div>
+            <div class="explainer__media">
+              <img class="bg" src="assets/img/explainer-bg-email.avif" alt="" loading="lazy">
+              <img class="fg fg--bleed" src="assets/img/explainer-email.avif" alt="An executive impersonation email flagged by Noon in Gmail" loading="lazy">
+            </div>
+          </article>
+
+          <article class="explainer explainer--reverse" id="device-protection">
+            <div class="explainer__content">
+              <span class="eyebrow"><svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M2.5 16.5C2.5 17.4293 2.5 17.894 2.57686 18.2804C2.89249 19.8671 4.13288 21.1075 5.71964 21.4231C6.10603 21.5 6.57069 21.5 7.5 21.5M21.5 16.5C21.5 17.4293 21.5 17.894 21.4231 18.2804C21.1075 19.8671 19.8671 21.1075 18.2804 21.4231C17.894 21.5 17.4293 21.5 16.5 21.5M21.5 7.5C21.5 6.57069 21.5 6.10603 21.4231 5.71964C21.1075 4.13288 19.8671 2.89249 18.2804 2.57686C17.894 2.5 17.4293 2.5 16.5 2.5M2.5 7.5C2.5 6.57069 2.5 6.10603 2.57686 5.71964C2.89249 4.13288 4.13288 2.89249 5.71964 2.57686C6.10603 2.5 6.57069 2.5 7.5 2.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M14.3334 12.875V15.2083C14.3334 16.0332 14.3334 16.4458 14.5897 16.7021C14.8459 16.9583 15.2585 16.9583 16.0834 16.9583C16.9084 16.9583 17.3208 16.9583 17.577 16.7021C17.8334 16.4458 17.8334 16.0332 17.8334 15.2083V12.875C17.8334 12.0501 17.8334 11.6376 17.577 11.3813C17.3208 11.125 16.9084 11.125 16.0834 11.125C15.2585 11.125 14.8459 11.125 14.5897 11.3813C14.3334 11.6376 14.3334 12.0501 14.3334 12.875Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M7.33337 14.6253V9.95866C7.33337 8.58373 7.33337 7.89626 7.76076 7.46912C8.18815 7.04199 8.87602 7.04199 10.2518 7.04199H14.3375C15.7132 7.04199 16.4011 7.04199 16.8286 7.46912C17.1536 7.79403 17.2314 8.26954 17.25 9.08366" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M12.5833 16.9587H6.4675C6.24412 16.9587 6.09884 16.7305 6.19874 16.5366L7.33329 14.6254H12.5833" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> </svg> Device protection</span>
+              <h3 class="h3">Keep your devices safe</h3>
+              <p>Protect devices from attacks. Detect malware, stolen sessions and suspicious activity directly on employee devices.</p>
+              <a class="link-arrow" href="https://noon.security/features/device-protection">Learn more <svg aria-hidden="true" focusable="false" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M5 13.5L11 8L5 2.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </svg></a>
+              <div class="explainer__tags">
+                <a href="https://noon.security/features/device-protection">Malware</a>
+                <a href="https://noon.security/features/device-protection">Info Stealers</a>
+                <a href="https://noon.security/features/device-protection">Session Hijacking</a>
+                <a href="https://noon.security/features/device-protection">Malicious Extensions</a>
+                <a href="https://noon.security/features/device-protection">Suspicious Processes</a>
+              </div>
+            </div>
+            <div class="explainer__media">
+              <img class="bg" src="assets/img/explainer-bg-device.avif" alt="" loading="lazy">
+              <img class="fg" src="assets/img/explainer-device.avif" alt="A malicious browser extension blocked on an employee device" loading="lazy">
+            </div>
+          </article>
+
+          <article class="explainer" id="ai">
+            <div class="explainer__content">
+              <span class="eyebrow"><svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M2.5 16.5C2.5 17.4293 2.5 17.894 2.57686 18.2804C2.89249 19.8671 4.13288 21.1075 5.71964 21.4231C6.10603 21.5 6.57069 21.5 7.5 21.5M21.5 16.5C21.5 17.4293 21.5 17.894 21.4231 18.2804C21.1075 19.8671 19.8671 21.1075 18.2804 21.4231C17.894 21.5 17.4293 21.5 16.5 21.5M21.5 7.5C21.5 6.57069 21.5 6.10603 21.4231 5.71964C21.1075 4.13288 19.8671 2.89249 18.2804 2.57686C17.894 2.5 17.4293 2.5 16.5 2.5M2.5 7.5C2.5 6.57069 2.5 6.10603 2.57686 5.71964C2.89249 4.13288 4.13288 2.89249 5.71964 2.57686C6.10603 2.5 6.57069 2.5 7.5 2.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <g clip-path="url(#clip0_1233_29070)"> <mask id="mask0_1233_29070" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="5" y="5" width="14" height="14"> <path d="M19 5H5V19H19V5Z" fill="white"></path> </mask> <g mask="url(#mask0_1233_29070)"> <path d="M7.33341 14.6248C7.33341 15.5913 8.11691 16.3748 9.08341 16.3748C9.08341 17.1802 9.73633 17.8331 10.5417 17.8331C11.3472 17.8331 12.0001 17.1802 12.0001 16.3748C12.0001 17.1802 12.653 17.8331 13.4584 17.8331C14.2638 17.8331 14.9167 17.1802 14.9167 16.3747C15.8833 16.3747 16.6667 15.5912 16.6667 14.6247C16.6667 14.293 16.5744 13.9828 16.4141 13.7185C17.2225 13.5639 17.8334 12.8531 17.8334 11.9997C17.8334 11.1463 17.2225 10.4355 16.4141 10.2809C16.5744 10.0166 16.6667 9.70643 16.6667 9.37471C16.6667 8.40821 15.8833 7.62471 14.9167 7.62471C14.9167 6.81929 14.2638 6.16638 13.4584 6.16638C12.653 6.16638 12.0001 6.81935 12.0001 7.62476C12.0001 6.81935 11.3472 6.16643 10.5417 6.16643C9.73633 6.16643 9.08341 6.81935 9.08341 7.62476C8.11691 7.62476 7.33341 8.40827 7.33341 9.37476C7.33341 9.70648 7.42571 10.0166 7.58602 10.281C6.77766 10.4356 6.16675 11.1463 6.16675 11.9998C6.16675 12.8532 6.77766 13.5639 7.58602 13.7186C7.42571 13.9829 7.33341 14.293 7.33341 14.6248Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M9.375 13.4582L10.4494 10.2349C10.5045 10.0696 10.6591 9.95819 10.8333 9.95819C11.0075 9.95819 11.1622 10.0696 11.2172 10.2349L12.2917 13.4582M14.0416 9.95819V13.4582M9.95834 12.2915H11.7083" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g> <defs> <clipPath id="clip0_1233_29070"> <rect width="14" height="14" fill="white" transform="translate(5 5)"></rect> </clipPath> </defs> </svg> AI governance</span>
+              <h3 class="h3">See which AI tools and apps your team uses.</h3>
+              <p>Discover unsanctioned AI and SaaS, sensitive data leaving the company and new tools appearing across the workforce.</p>
+              <a class="link-arrow" href="https://noon.security/features/ai-governance">Learn more <svg aria-hidden="true" focusable="false" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M5 13.5L11 8L5 2.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </svg></a>
+              <div class="explainer__tags">
+                <a href="https://noon.security/features/ai-governance">Shadow AI</a>
+                <a href="https://noon.security/features/ai-governance">Shadow SaaS</a>
+                <a href="https://noon.security/features/ai-governance">Sensitive Data Sharing</a>
+                <a href="https://noon.security/features/ai-governance">Unapproved Tools</a>
+                <a href="https://noon.security/features/ai-governance">AI Agents</a>
+                <a href="https://noon.security/features/ai-governance">Policy Violations</a>
+              </div>
+            </div>
+            <div class="explainer__media">
+              <img class="bg" src="assets/img/explainer-bg-ai.avif" alt="" loading="lazy">
+              <img class="fg" src="assets/img/explainer-ai.avif" alt="Unauthorized AI integrations detected across employee devices" loading="lazy">
+            </div>
+          </article>
+
+          <article class="explainer explainer--reverse" id="simulation">
+            <div class="explainer__content">
+              <span class="eyebrow"><svg aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M2.5 16.5C2.5 17.4293 2.5 17.894 2.57686 18.2804C2.89249 19.8671 4.13288 21.1075 5.71964 21.4231C6.10603 21.5 6.57069 21.5 7.5 21.5M21.5 16.5C21.5 17.4293 21.5 17.894 21.4231 18.2804C21.1075 19.8671 19.8671 21.1075 18.2804 21.4231C17.894 21.5 17.4293 21.5 16.5 21.5M21.5 7.5C21.5 6.57069 21.5 6.10603 21.4231 5.71964C21.1075 4.13288 19.8671 2.89249 18.2804 2.57686C17.894 2.5 17.4293 2.5 16.5 2.5M2.5 7.5C2.5 6.57069 2.5 6.10603 2.57686 5.71964C2.89249 4.13288 4.13288 2.89249 5.71964 2.57686C6.10603 2.5 6.57069 2.5 7.5 2.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M9.95829 7.16303C9.77966 7.08498 9.58236 7.04169 9.37496 7.04169C8.56955 7.04169 7.91663 7.69461 7.91663 8.50002C7.91663 8.97707 8.14568 9.40062 8.49982 9.66669" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M6.96871 14.625C6.52573 14.625 6.16663 14.251 6.16663 13.7895C6.16663 12.8508 7.13872 11.9121 8.79163 11.7318" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M14.0416 7.16273C14.2202 7.08468 14.4175 7.04138 14.625 7.04138C15.4304 7.04138 16.0833 7.6943 16.0833 8.49971C16.0833 8.97676 15.8542 9.40032 15.5001 9.66638" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M17.0312 14.6248C17.4742 14.6248 17.8333 14.2507 17.8333 13.7893C17.8333 12.8506 16.8612 11.9119 15.2084 11.7316" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M12 11.7083C12.9665 11.7083 13.75 10.9248 13.75 9.95831C13.75 8.99182 12.9665 8.20831 12 8.20831C11.0335 8.20831 10.25 8.99182 10.25 9.95831C10.25 10.9248 11.0335 11.7083 12 11.7083Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M12 13.4583C9.8125 13.4583 8.5 14.7083 8.5 15.9583C8.5 16.5106 8.89175 16.9583 9.375 16.9583H14.625C15.1082 16.9583 15.5 16.5106 15.5 15.9583C15.5 14.7083 14.1875 13.4583 12 13.4583Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> </svg> Simulations &amp; training</span>
+              <h3 class="h3">Turn real attacks into prevention training.</h3>
+              <p>Short lessons, delivered in Slack, Microsoft Teams or Google Chat. Prepare employees for the risk they'll most likely fall for.</p>
+              <a class="link-arrow" href="https://noon.security/features/attack-simulations">Learn more <svg aria-hidden="true" focusable="false" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M5 13.5L11 8L5 2.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </svg></a>
+              <div class="explainer__tags">
+                <a href="https://noon.security/features/attack-simulations">Spear Phishing</a>
+                <a href="https://noon.security/features/attack-simulations">Deepfake Calls</a>
+                <a href="https://noon.security/features/attack-simulations">SMS &amp; Chat Sims</a>
+                <a href="https://noon.security/features/attack-simulations">QR Phishing</a>
+                <a href="https://noon.security/features/attack-simulations">Multi-step Campaigns</a>
+                <a href="https://noon.security/features/attack-simulations">AI Scenario builder</a>
+              </div>
+            </div>
+            <div class="explainer__media">
+              <img class="bg" src="assets/img/explainer-bg-sim.avif" alt="" loading="lazy">
+              <img class="fg" src="assets/img/explainer-sim.avif" alt="A phishing test email followed by a micro course" loading="lazy">
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== INTEGRATIONS ============================== -->
+    <section class="integrations">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow eyebrow--pill">Integrations</span>
+          <h2 class="h2">Works with your workspaces<br>&amp; channels</h2>
+        </div>
+
+        <div class="integrations__grid">
+          <div class="integration">
+            <div class="integration__chips">
+              <span class="integration__chip"><svg aria-hidden="true" focusable="false" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <g clip-path="url(#clip0_14_118519)"> <path d="M1.43182 15.9999H4.77273V7.75746L0 4.12109V14.5453C0 15.3502 0.641932 15.9999 1.43182 15.9999Z" fill="#4285F4"></path> <path d="M16.2273 15.9999H19.5682C20.3605 15.9999 21 15.3478 21 14.5453V4.12109L16.2273 7.75746" fill="#34A853"></path> <path d="M16.2273 1.45477V7.7578L21 4.12143V2.18204C21 0.38325 18.9788 -0.642204 17.5636 0.436584" fill="#FBBC04"></path> <path d="M4.77272 7.75762V1.45459L10.5 5.81823L16.2273 1.45459V7.75762L10.5 12.1213" fill="#EA4335"></path> <path d="M0 2.18204V4.12143L4.77273 7.7578V1.45477L3.43636 0.436584C2.01886 -0.642204 0 0.38325 0 2.18204Z" fill="#C5221F"></path> </g> <defs> <clipPath id="clip0_14_118519"> <rect width="21" height="16" fill="white"></rect> </clipPath> </defs> </svg> Google Workspace</span>
+              <span class="integration__chip"><img src="assets/icons/outlook.png" alt=""> Microsoft 365</span>
+            </div>
+            <div class="integration__card">
+              <h3 class="sr-only">Workspaces</h3>
+              <img src="assets/img/integrations-workspaces.avif" alt="Noon sign-up screen with Gmail, Microsoft and SSO login options" loading="lazy">
+              <a class="integration__cta" href="https://app.aikido.dev/">Connect Workspace <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect width="24" height="24" rx="3" fill="white"></rect> <path d="M11.3165 17.3165V12.6844H6.68348C6.306 12.6844 6 12.3784 6 12.0009C6.00001 11.6234 6.30601 11.3174 6.68348 11.3174H11.3165V6.68348C11.3165 6.306 11.6225 6 12 6C12.3775 6 12.6835 6.306 12.6835 6.68348V11.3174H17.3165C17.694 11.3174 18 11.6234 18 12.0009C18 12.3784 17.694 12.6844 17.3165 12.6844H12.6835V17.3165C12.6835 17.694 12.3775 18 12 18C11.6225 18 11.3165 17.694 11.3165 17.3165Z" fill="#111111"></path> </svg></a>
+            </div>
+          </div>
+          <div class="integration">
+            <div class="integration__chips">
+              <span class="integration__chip"><svg aria-hidden="true" focusable="false" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"> <g clip-path="url(#clip0_14_137992)"> <path d="M4.49762 13.2286C4.49762 14.4357 3.52203 15.4113 2.31494 15.4113C1.10785 15.4113 0.132263 14.4357 0.132263 13.2286C0.132263 12.0215 1.10785 11.0459 2.31494 11.0459H4.49762V13.2286ZM5.58896 13.2286C5.58896 12.0215 6.56455 11.0459 7.77163 11.0459C8.97872 11.0459 9.95431 12.0215 9.95431 13.2286V18.6853C9.95431 19.8924 8.97872 20.8679 7.77163 20.8679C6.56455 20.8679 5.58896 19.8924 5.58896 18.6853V13.2286Z" fill="#E01E5A"></path> <path d="M7.77163 4.46448C6.56454 4.46448 5.58895 3.48889 5.58895 2.2818C5.58895 1.07471 6.56454 0.0991211 7.77163 0.0991211C8.97871 0.0991211 9.95431 1.07471 9.95431 2.2818V4.46448H7.77163ZM7.77163 5.57235C8.97871 5.57235 9.95431 6.54794 9.95431 7.75503C9.95431 8.96211 8.97871 9.9377 7.77163 9.9377H2.2984C1.09131 9.9377 0.115723 8.96211 0.115723 7.75503C0.115723 6.54794 1.09131 5.57235 2.2984 5.57235H7.77163Z" fill="#36C5F0"></path> <path d="M16.5189 7.75503C16.5189 6.54794 17.4945 5.57235 18.7016 5.57235C19.9087 5.57235 20.8842 6.54794 20.8842 7.75503C20.8842 8.96211 19.9087 9.9377 18.7016 9.9377H16.5189V7.75503ZM15.4275 7.75503C15.4275 8.96211 14.452 9.9377 13.2449 9.9377C12.0378 9.9377 11.0622 8.96211 11.0622 7.75503V2.2818C11.0622 1.07471 12.0378 0.0991211 13.2449 0.0991211C14.452 0.0991211 15.4275 1.07471 15.4275 2.2818V7.75503Z" fill="#2EB67D"></path> <path d="M13.2449 16.5026C14.452 16.5026 15.4275 17.4782 15.4275 18.6853C15.4275 19.8924 14.452 20.8679 13.2449 20.8679C12.0378 20.8679 11.0622 19.8924 11.0622 18.6853V16.5026H13.2449ZM13.2449 15.4113C12.0378 15.4113 11.0622 14.4357 11.0622 13.2286C11.0622 12.0215 12.0378 11.0459 13.2449 11.0459H18.7181C19.9252 11.0459 20.9008 12.0215 20.9008 13.2286C20.9008 14.4357 19.9252 15.4113 18.7181 15.4113H13.2449Z" fill="#ECB22E"></path> </g> <defs> <clipPath id="clip0_14_137992"> <rect width="21" height="21" fill="white"></rect> </clipPath> </defs> </svg> Slack</span>
+              <span class="integration__chip"><svg aria-hidden="true" focusable="false" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg"> <g clip-path="url(#clip0_14_137999)"> <path d="M9.99994 8.84229H16.6666C18.5076 8.84229 19.9999 10.3268 19.9999 12.1581V17.6844C19.9999 19.5156 18.5076 21.0002 16.6666 21.0002C14.8257 21.0002 13.3333 19.5156 13.3333 17.6844V12.1581C13.3333 10.3268 11.8409 8.84229 9.99994 8.84229Z" fill="url(#paint0_radial_14_137999)"></path> <path d="M2.22217 11.0526C2.22217 9.22135 3.71457 7.73682 5.55551 7.73682H9.99996C11.8409 7.73682 13.3333 9.22135 13.3333 11.0526V17.6842C13.3333 19.5154 14.8257 21 16.6666 21L7.77768 20.9999C4.70946 20.9999 2.22217 18.5257 2.22217 15.4736V11.0526Z" fill="url(#paint1_radial_14_137999)"></path> <path d="M2.22217 11.0526C2.22217 9.22135 3.71457 7.73682 5.55551 7.73682H9.99996C11.8409 7.73682 13.3333 9.22135 13.3333 11.0526V17.6842C13.3333 19.5154 14.8257 21 16.6666 21L7.77768 20.9999C4.70946 20.9999 2.22217 18.5257 2.22217 15.4736V11.0526Z" fill="url(#paint2_linear_14_137999)" fill-opacity="0.7"></path> <path d="M2.22217 11.0526C2.22217 9.22135 3.71457 7.73682 5.55551 7.73682H9.99996C11.8409 7.73682 13.3333 9.22135 13.3333 11.0526V17.6842C13.3333 19.5154 14.8257 21 16.6666 21L7.77768 20.9999C4.70946 20.9999 2.22217 18.5257 2.22217 15.4736V11.0526Z" fill="url(#paint3_radial_14_137999)" fill-opacity="0.7"></path> <path d="M16.111 7.73676C17.6451 7.73676 18.8888 6.49964 18.8888 4.97361C18.8888 3.44757 17.6451 2.21045 16.111 2.21045C14.5769 2.21045 13.3333 3.44757 13.3333 4.97361C13.3333 6.49964 14.5769 7.73676 16.111 7.73676Z" fill="url(#paint4_radial_14_137999)"></path> <path d="M16.111 7.73676C17.6451 7.73676 18.8888 6.49964 18.8888 4.97361C18.8888 3.44757 17.6451 2.21045 16.111 2.21045C14.5769 2.21045 13.3333 3.44757 13.3333 4.97361C13.3333 6.49964 14.5769 7.73676 16.111 7.73676Z" fill="url(#paint5_radial_14_137999)" fill-opacity="0.46"></path> <path d="M16.111 7.73676C17.6451 7.73676 18.8888 6.49964 18.8888 4.97361C18.8888 3.44757 17.6451 2.21045 16.111 2.21045C14.5769 2.21045 13.3333 3.44757 13.3333 4.97361C13.3333 6.49964 14.5769 7.73676 16.111 7.73676Z" fill="url(#paint6_radial_14_137999)" fill-opacity="0.4"></path> <path d="M7.77773 6.63158C9.61867 6.63158 11.1111 5.14704 11.1111 3.31579C11.1111 1.48453 9.61867 0 7.77773 0C5.93679 0 4.4444 1.48453 4.4444 3.31579C4.4444 5.14704 5.93679 6.63158 7.77773 6.63158Z" fill="url(#paint7_radial_14_137999)"></path> <path d="M7.77773 6.63158C9.61867 6.63158 11.1111 5.14704 11.1111 3.31579C11.1111 1.48453 9.61867 0 7.77773 0C5.93679 0 4.4444 1.48453 4.4444 3.31579C4.4444 5.14704 5.93679 6.63158 7.77773 6.63158Z" fill="url(#paint8_radial_14_137999)" fill-opacity="0.6"></path> <path d="M7.77773 6.63158C9.61867 6.63158 11.1111 5.14704 11.1111 3.31579C11.1111 1.48453 9.61867 0 7.77773 0C5.93679 0 4.4444 1.48453 4.4444 3.31579C4.4444 5.14704 5.93679 6.63158 7.77773 6.63158Z" fill="url(#paint9_radial_14_137999)" fill-opacity="0.5"></path> <path d="M7.08333 10.5H1.80556C0.808375 10.5 0 11.3041 0 12.2961V17.5461C0 18.538 0.808375 19.3421 1.80556 19.3421H7.08333C8.08051 19.3421 8.88889 18.538 8.88889 17.5461V12.2961C8.88889 11.3041 8.08051 10.5 7.08333 10.5Z" fill="url(#paint10_radial_14_137999)"></path> <path d="M7.08333 10.5H1.80556C0.808375 10.5 0 11.3041 0 12.2961V17.5461C0 18.538 0.808375 19.3421 1.80556 19.3421H7.08333C8.08051 19.3421 8.88889 18.538 8.88889 17.5461V12.2961C8.88889 11.3041 8.08051 10.5 7.08333 10.5Z" fill="url(#paint11_radial_14_137999)" fill-opacity="0.7"></path> <path d="M6.37731 13.3212H5.01781V17.4471H3.8707V13.3212H2.51117V12.3945H6.37731V13.3212Z" fill="white"></path> </g> <defs> <radialGradient id="paint0_radial_14_137999" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.8871 10.0437) scale(7.488 18.3857)"> <stop stop-color="#A98AFF"></stop> <stop offset="0.14" stop-color="#8C75FF"></stop> <stop offset="0.565" stop-color="#5F50E2"></stop> <stop offset="0.9" stop-color="#3C2CB8"></stop> </radialGradient> <radialGradient id="paint1_radial_14_137999" cx="0" cy="0" r="1" gradientTransform="matrix(6.77084 16.8 -17.0802 6.81151 2.67356 6.85261)" gradientUnits="userSpaceOnUse"> <stop stop-color="#85C2FF"></stop> <stop offset="0.69" stop-color="#7588FF"></stop> <stop offset="1" stop-color="#6459FE"></stop> </radialGradient> <linearGradient id="paint2_linear_14_137999" x1="9.21868" y1="7.73682" x2="9.21868" y2="21" gradientUnits="userSpaceOnUse"> <stop offset="0.801159" stop-color="#6864F6" stop-opacity="0"></stop> <stop offset="1" stop-color="#5149DE"></stop> </linearGradient> <radialGradient id="paint3_radial_14_137999" cx="0" cy="0" r="1" gradientTransform="matrix(-4.22769 9.75273 -7.87021 -3.37582 13.0555 7.29471)" gradientUnits="userSpaceOnUse"> <stop stop-color="#BD96FF"></stop> <stop offset="0.686685" stop-color="#BD96FF" stop-opacity="0"></stop> </radialGradient> <radialGradient id="paint4_radial_14_137999" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(16.111 4.18412) rotate(-90) scale(5.52632 7.012)"> <stop offset="0.268201" stop-color="#6868F7"></stop> <stop offset="1" stop-color="#3923B1"></stop> </radialGradient> <radialGradient id="paint5_radial_14_137999" cx="0" cy="0" r="1" gradientTransform="matrix(3.03902 2.54126 -3.6951 4.37246 13.8153 3.61634)" gradientUnits="userSpaceOnUse"> <stop offset="0.270711" stop-color="#A1D3FF"></stop> <stop offset="0.813393" stop-color="#A1D3FF" stop-opacity="0"></stop> </radialGradient> <radialGradient id="paint6_radial_14_137999" cx="0" cy="0" r="1" gradientTransform="matrix(3.53338 -3.12695 7.71122 8.62202 18.3234 3.51941)" gradientUnits="userSpaceOnUse"> <stop stop-color="#E3ACFD"></stop> <stop offset="0.816041" stop-color="#9FA2FF" stop-opacity="0"></stop> </radialGradient> <radialGradient id="paint7_radial_14_137999" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(7.77773 2.36842) rotate(-90) scale(6.63158 8.41444)"> <stop offset="0.268201" stop-color="#8282FF"></stop> <stop offset="1" stop-color="#3923B1"></stop> </radialGradient> <radialGradient id="paint8_radial_14_137999" cx="0" cy="0" r="1" gradientTransform="matrix(3.64682 3.04951 -4.43409 5.24693 5.02284 1.6871)" gradientUnits="userSpaceOnUse"> <stop offset="0.270711" stop-color="#A1D3FF"></stop> <stop offset="0.813393" stop-color="#A1D3FF" stop-opacity="0"></stop> </radialGradient> <radialGradient id="paint9_radial_14_137999" cx="0" cy="0" r="1" gradientTransform="matrix(4.24006 -3.75234 9.25347 10.3464 10.4326 1.57074)" gradientUnits="userSpaceOnUse"> <stop stop-color="#E3ACFD"></stop> <stop offset="0.816041" stop-color="#9FA2FF" stop-opacity="0"></stop> </radialGradient> <radialGradient id="paint10_radial_14_137999" cx="0" cy="0" r="1" gradientTransform="matrix(8.88888 8.8421 -8.88888 8.8421 0 10.5)" gradientUnits="userSpaceOnUse"> <stop offset="0.046875" stop-color="#688EFF"></stop> <stop offset="0.946875" stop-color="#230F94"></stop> </radialGradient> <radialGradient id="paint11_radial_14_137999" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(4.44444 15.8053) rotate(90) scale(6.18947 7.26122)"> <stop offset="0.570647" stop-color="#6965F6" stop-opacity="0"></stop> <stop offset="1" stop-color="#8F8FFF"></stop> </radialGradient> <clipPath id="clip0_14_137999"> <rect width="20" height="21" fill="white"></rect> </clipPath> </defs> </svg> Microsoft Teams</span>
+              <span class="integration__chip"><svg aria-hidden="true" focusable="false" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg"> <g clip-path="url(#clip0_14_138015)"> <path d="M5.15686 0.0336914L5.15754 5.05204" stroke="#7E916F" stroke-width="2"></path> <path d="M5.15749 5.05209L0 5.05078" stroke="#1375EB" stroke-width="2"></path> <path d="M15.8736 0.0717773C15.8664 0.0744023 15.8603 0.0772461 15.8554 0.0803086C15.8477 0.0842461 15.8439 0.0903711 15.8439 0.0986836L15.8425 5.05403" stroke="#F3801D" stroke-width="2"></path> <path d="M15.8425 5.0542C15.8416 5.0542 15.8405 5.0542 15.8391 5.0542" stroke="#7EB426" stroke-width="2"></path> <path d="M5.1595 5.05421C5.15905 5.05378 5.15837 5.05312 5.15747 5.05225" stroke="#91A080" stroke-width="2"></path> <path d="M20.9683 5.03809L15.8425 5.05384" stroke="#75783E" stroke-width="2"></path> <path d="M5.16087 11.9891L0 11.9878" stroke="#138495" stroke-width="2"></path> <path d="M5.16156 17.0058L5.16089 14.4937" stroke="#00983A" stroke-width="2"></path> <path d="M5.15682 0.0336914L5.15749 5.05204L0 5.05072V1.36325C0.0382637 1.1025 0.117717 0.883535 0.23836 0.706348C0.535916 0.267973 0.968521 0.0472539 1.53617 0.0441914C2.7363 0.0380664 3.94318 0.0345664 5.15682 0.0336914Z" fill="#0066DA"></path> <path d="M5.15686 0.0336914L15.7865 0.0350039C15.8089 0.0349954 15.8306 0.0416452 15.8486 0.0540352L15.8736 0.0717539C15.8664 0.0743789 15.8603 0.0772227 15.8554 0.0802852C15.8477 0.0842227 15.8439 0.0903477 15.8439 0.0986602L15.8426 5.054C15.8417 5.054 15.8405 5.054 15.8392 5.054H5.15956C5.15911 5.05357 5.15844 5.05291 5.15754 5.05203L5.15686 0.0336914Z" fill="#FBBC04"></path> <path d="M15.8736 0.0712891L20.9683 5.03779L15.8425 5.05354L15.8439 0.0981953C15.8439 0.0898828 15.8477 0.0837578 15.8554 0.0798203C15.8603 0.0767578 15.8664 0.0739141 15.8736 0.0712891Z" fill="#EA4335"></path> <path d="M0 5.05029L5.15749 5.05161C5.15839 5.05248 5.15907 5.05314 5.15952 5.05357L5.16087 11.9888L0 11.9875V5.05029Z" fill="#2684FC"></path> <path d="M20.9683 5.03809L21 5.0604V15.6851C20.8803 16.3208 20.5413 16.7314 19.9831 16.9169C19.7841 16.9834 19.4909 17.0162 19.1033 17.0153C16.5873 17.0114 14.0457 17.0076 11.4784 17.0041C11.1057 17.0037 10.7276 17.0063 10.344 17.012C10.3229 17.0125 10.3049 17.0199 10.29 17.0343C9.03407 18.2493 7.77362 19.4747 6.50867 20.7106C6.31488 20.9003 6.09542 21.006 5.81722 20.9659C5.55793 20.9287 5.36684 20.7988 5.24394 20.5761C5.19218 20.4816 5.16584 20.3092 5.16494 20.059C5.16179 19.0444 5.16066 18.0266 5.16156 17.0055L5.16089 14.4933L7.71195 12.014C7.72307 12.0032 7.7363 11.9946 7.7509 11.9888C7.7655 11.9829 7.78117 11.9799 7.79703 11.9799L15.7851 11.9825C15.8 11.9825 15.8143 11.9768 15.8248 11.9666C15.8353 11.9564 15.8412 11.9425 15.8412 11.9281L15.8392 5.05384C15.8405 5.05384 15.8416 5.05384 15.8425 5.05384L20.9683 5.03809Z" fill="#00AC47"></path> <path d="M5.16087 11.9891V14.4934L5.16154 17.0055C4.08251 17.0116 3.0127 17.0136 1.95212 17.0114C1.51006 17.0105 1.19158 16.9768 0.996656 16.9103C0.450161 16.7248 0.117942 16.3136 0 15.6766V11.9878L5.16087 11.9891Z" fill="#00832D"></path> </g> <defs> <clipPath id="clip0_14_138015"> <rect width="21" height="21" fill="white"></rect> </clipPath> </defs> </svg> Google Chat</span>
+            </div>
+            <div class="integration__card integration__card--channels">
+              <h3 class="sr-only">Channels</h3>
+              <img src="assets/img/integrations-channels.avif" alt="A Noon training lesson delivered in a chat channel" loading="lazy">
+              <a class="integration__cta" href="https://app.aikido.dev/">Connect Workspace <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <rect width="24" height="24" rx="3" fill="white"></rect> <path d="M11.3165 17.3165V12.6844H6.68348C6.306 12.6844 6 12.3784 6 12.0009C6.00001 11.6234 6.30601 11.3174 6.68348 11.3174H11.3165V6.68348C11.3165 6.306 11.6225 6 12 6C12.3775 6 12.6835 6.306 12.6835 6.68348V11.3174H17.3165C17.694 11.3174 18 11.6234 18 12.0009C18 12.3784 17.694 12.6844 17.3165 12.6844H12.6835V17.3165C12.6835 17.694 12.3775 18 12 18C11.6225 18 11.3165 17.694 11.3165 17.3165Z" fill="#111111"></path> </svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== TESTIMONIAL ============================== -->
+    <section class="quote">
+      <div class="container">
+        <figure class="quote__card">
+          <img class="quote__bg" src="assets/img/testimonial-bg.avif" alt="" loading="lazy">
+          <div class="quote__content">
+            <img class="quote__logo" src="assets/logos/latio-white.svg" alt="Latio">
+            <blockquote class="quote__text">“Organizations benefit from a modern take on workforce security that combines email, endpoint, and AI security into a single place.”</blockquote>
+            <figcaption class="quote__person">James Berthoty, Founder, Latio</figcaption>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============================== CTA ============================== -->
+    <section class="cta">
+      <div class="cta__card">
+        <div class="cta__content">
+          <h2 class="h2">Your workforce, secured by noon</h2>
+          <p class="lede">Be first to protect your people and their devices with Noon.</p>
+          <form class="signup signup--dark" data-signup novalidate>
+            <div class="signup__field">
+              <label class="sr-only" for="email-dark">Work email</label>
+              <input class="signup__input" id="email-dark" type="email" name="email" placeholder="jess@company.com*" autocomplete="email" required>
+              <button class="signup__submit" type="submit">Get Early Access</button>
+            </div>
+            <p class="signup__note">Data processing per Noon Security's <a href="https://noon.security/legal/privacy">Privacy Policy</a>.</p>
+            <p class="signup__msg" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+        <div class="logos logos--dark">
+      <div class="container logos__inner">
+        <p class="logos__text">
+          <span class="logos__aikido">an <a href="https://www.aikido.dev/" target="_blank" rel="noopener"><svg aria-hidden="true" focusable="false" viewBox="0 0 31 34" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M30.9015 0H0V10.6758H30.9015V0Z" fill="currentColor"></path> <path d="M0 20.689C8.79112 12.908 22.1103 12.908 30.9015 20.689V33.994L30.8954 34L15.4507 18.6723L0.00605831 34L0 33.994V20.689Z" fill="currentColor"></path> </svg>aikido</a> company</span>
+          <span class="logos__sep">|</span>
+          <span>Trusted by 150k orgs</span>
+        </p>
+        <div class="marquee">
+          <div class="marquee__track">
+            <div class="marquee__group"><img src="assets/logos/n8n.svg" alt="n8n" loading="lazy"><img src="assets/logos/revolut.svg" alt="Revolut" loading="lazy"><img src="assets/logos/visma.svg" alt="Visma" loading="lazy"><img src="assets/logos/soundcloud.svg" alt="SoundCloud" loading="lazy"><img src="assets/logos/too-good-to-go.png" alt="Too Good To Go" loading="lazy"><img src="assets/logos/deel.svg" alt="Deel" loading="lazy"><img src="assets/logos/joe-and-the-juice.png" alt="Joe &amp; The Juice" loading="lazy"></div>
+            <div class="marquee__group" aria-hidden="true"><img src="assets/logos/n8n.svg" alt="" loading="lazy"><img src="assets/logos/revolut.svg" alt="" loading="lazy"><img src="assets/logos/visma.svg" alt="" loading="lazy"><img src="assets/logos/soundcloud.svg" alt="" loading="lazy"><img src="assets/logos/too-good-to-go.png" alt="" loading="lazy"><img src="assets/logos/deel.svg" alt="" loading="lazy"><img src="assets/logos/joe-and-the-juice.png" alt="" loading="lazy"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+    </section>
+
+    <!-- ============================== FAQ ============================== -->
+    <section class="faq">
+      <div class="container faq__grid">
+        <div class="faq__intro">
+          <span class="eyebrow eyebrow--dark">FAQs</span>
+          <h2 class="h3">Frequently Asked Questions</h2>
+          <p>Questions about getting started with Noon Security, phishing, Shadow AI or general employee security</p>
+          <a class="link-arrow link-arrow--soft" href="https://noon.security/book/demo">Talk to our Team <svg aria-hidden="true" focusable="false" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M5 13.5L11 8L5 2.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </svg></a>
+        </div>
+        <div class="accordion" data-accordion>
+          <div class="accordion__item">
+            <h3><button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-1" id="faq-q1">Do I need to install anything with Noon?<svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" class="accordion-icon"><path fill-rule="evenodd" clip-rule="evenodd" d="M17 17L27.3137 17L27.3137 15H17V4.68631L15 4.68631L15 15H4.68629L4.68629 17L15 17V27.3137H17V17Z" fill="currentColor"></path></svg></button></h3>
+            <div class="accordion__panel" id="faq-1" role="region" aria-labelledby="faq-q1"><div><div class="accordion__body"><p>Email Protection and attack simulations work through your Google or Microsoft connection. Device Protection and AI usage monitoring need the agent on macOS or Windows.</p></div></div></div>
+          </div>
+          <div class="accordion__item">
+            <h3><button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-2" id="faq-q2">What data does Noon store?<svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" class="accordion-icon"><path fill-rule="evenodd" clip-rule="evenodd" d="M17 17L27.3137 17L27.3137 15H17V4.68631L15 4.68631L15 15H4.68629L4.68629 17L15 17V27.3137H17V17Z" fill="currentColor"></path></svg></button></h3>
+            <div class="accordion__panel" id="faq-2" role="region" aria-labelledby="faq-q2"><div><div class="accordion__body"><p>Only malicious email, as proof of what Noon found and why. Safe emails are not saved. Prompts, conversations, secret values, files, and browsing stay on the device.</p></div></div></div>
+          </div>
+          <div class="accordion__item">
+            <h3><button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-3" id="faq-q3">What does my security team see?<svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" class="accordion-icon"><path fill-rule="evenodd" clip-rule="evenodd" d="M17 17L27.3137 17L27.3137 15H17V4.68631L15 4.68631L15 15H4.68629L4.68629 17L15 17V27.3137H17V17Z" fill="currentColor"></path></svg></button></h3>
+            <div class="accordion__panel" id="faq-3" role="region" aria-labelledby="faq-q3"><div><div class="accordion__body"><p>Outcomes, not the data behind them:</p><ul><li><strong>Email:</strong> the verdict and why</li><li><strong>Devices:</strong> the blocked package or domain</li><li><strong>AI tools:</strong> the model, provider, MCP server, and tool</li></ul><p>People can't see each other's mail, results, or device activity.</p></div></div></div>
+          </div>
+          <div class="accordion__item">
+            <h3><button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-4" id="faq-q4">How do I get started?<svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" class="accordion-icon"><path fill-rule="evenodd" clip-rule="evenodd" d="M17 17L27.3137 17L27.3137 15H17V4.68631L15 4.68631L15 15H4.68629L4.68629 17L15 17V27.3137H17V17Z" fill="currentColor"></path></svg></button></h3>
+            <div class="accordion__panel" id="faq-4" role="region" aria-labelledby="faq-q4"><div><div class="accordion__body"><p>Connect Google Workspace or Microsoft 365. Noon starts scanning connected mailboxes within minutes.</p></div></div></div>
+          </div>
+          <div class="accordion__item">
+            <h3><button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-5" id="faq-q5">What does Noon protect?<svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" class="accordion-icon"><path fill-rule="evenodd" clip-rule="evenodd" d="M17 17L27.3137 17L27.3137 15H17V4.68631L15 4.68631L15 15H4.68629L4.68629 17L15 17V27.3137H17V17Z" fill="currentColor"></path></svg></button></h3>
+            <div class="accordion__panel" id="faq-5" role="region" aria-labelledby="faq-q5"><div><div class="accordion__body"><p>Your email and your devices. Email Protection catches phishing, business email compromise, credential theft, and malware. Device Protection stops malware and risky sites. Attack simulations and courses train the people those attacks target.</p></div></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================== FOOTER ============================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a class="footer__logo" href="/" aria-label="Noon home, an Aikido company"><svg aria-hidden="true" focusable="false" viewBox="0 0 112 37" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M15.2706 0C6.85468 0 0.0288642 7.54124 9.13004e-05 16.856H30.5411C30.5124 7.54124 23.6865 0 15.2706 0Z" fill="#F64718"></path> <path d="M99.5633 16.7195H95.1934V0.951705H99.5783C99.5783 2.12303 99.3681 3.18924 98.7674 4.97626L99.0677 5.11141C100.419 2.10801 102.627 0.666382 105.9 0.666382C109.505 0.666382 111.442 2.40835 111.442 5.71209V16.7195H107.072V6.76328C107.072 4.72097 106.051 3.63975 103.993 3.63975C101.23 3.63975 99.5633 5.84724 99.5633 9.39125V16.7195Z" fill="currentColor"></path> <path d="M40.5215 16.7195V0.951705H44.9064C44.9064 1.54237 44.8464 2.13805 44.7262 2.73873C44.6061 3.33941 44.3959 4.08525 44.0955 4.97626L44.3959 5.11141C45.0766 3.60971 45.9777 2.49345 47.0989 1.76262C48.2202 1.0318 49.5968 0.666382 51.2286 0.666382C53.0306 0.666382 54.4022 1.09687 55.3433 1.95784C56.2943 2.80881 56.7699 4.06022 56.7699 5.71209V16.7195H52.3999V6.76328C52.3999 5.73211 52.1396 4.95624 51.619 4.43565C51.1085 3.90505 50.3426 3.63975 49.3214 3.63975C48.4104 3.63975 47.6195 3.87501 46.9488 4.34554C46.288 4.80607 45.7774 5.47182 45.417 6.3428C45.0666 7.20378 44.8914 8.21993 44.8914 9.39125V16.7195H40.5215Z" fill="currentColor"></path> <path d="M84.7821 16.8884C87.2004 16.8884 89.1004 16.1675 90.511 14.6967C91.8929 13.226 92.5838 11.2649 92.5838 8.78485C92.5838 6.30475 91.8929 4.34374 90.511 2.87299C89.1004 1.40223 87.2004 0.681274 84.7821 0.681274C82.3351 0.681274 80.4351 1.40223 79.0532 2.87299C77.6714 4.34374 76.9805 6.30475 76.9805 8.78485C76.9805 11.2649 77.6714 13.226 79.0532 14.6967C80.4351 16.1675 82.3351 16.8884 84.7821 16.8884ZM84.7821 13.745C83.5442 13.745 82.623 13.3125 81.9609 12.4473C81.2987 11.611 80.9821 10.371 80.9821 8.78485C80.9821 7.19874 81.2987 5.95869 81.9609 5.09354C82.623 4.22839 83.5442 3.79581 84.7821 3.79581C86.02 3.79581 86.9413 4.22839 87.6034 5.09354C88.2655 5.95869 88.5822 7.19874 88.5822 8.78485C88.5822 10.371 88.2655 11.611 87.6034 12.4473C86.9413 13.3125 86.02 13.745 84.7821 13.745Z" fill="currentColor"></path> <path d="M67.581 16.8884C69.9992 16.8884 71.8992 16.1675 73.3099 14.6967C74.6917 13.226 75.3826 11.2649 75.3826 8.78485C75.3826 6.30475 74.6917 4.34374 73.3099 2.87299C71.8992 1.40223 69.9992 0.681274 67.581 0.681274C65.1339 0.681274 63.2339 1.40223 61.8521 2.87299C60.4702 4.34374 59.7793 6.30475 59.7793 8.78485C59.7793 11.2649 60.4702 13.226 61.8521 14.6967C63.2339 16.1675 65.1339 16.8884 67.581 16.8884ZM67.581 13.745C66.3431 13.745 65.4218 13.3125 64.7597 12.4473C64.0976 11.611 63.7809 10.371 63.7809 8.78485C63.7809 7.19874 64.0976 5.95869 64.7597 5.09354C65.4218 4.22839 66.3431 3.79581 67.581 3.79581C68.8189 3.79581 69.7401 4.22839 70.4022 5.09354C71.0644 5.95869 71.381 7.19874 71.381 8.78485C71.381 10.371 71.0644 11.611 70.4022 12.4473C69.7401 13.3125 68.8189 13.745 67.581 13.745Z" fill="currentColor"></path> <path d="M4.81407 34.3522C4.77626 34.0062 4.75105 33.7883 4.73845 33.3526C4.24696 34.0703 3.45302 34.506 2.39443 34.506C1.32324 34.506 -6.50018e-08 34.0446 0 32.5325C5.78406e-08 31.1869 1.04599 30.3155 3.42782 30.3155H4.73845V30.1873C4.73845 29.3544 4.68804 28.2139 3.07495 28.2139C1.82733 28.2139 1.39885 28.9059 1.27283 29.6363H0.176432C0.340261 28.2779 1.24762 27.304 3.12536 27.304C5.31816 27.304 5.83485 28.6367 5.83485 30.0592L5.83485 32.9041C5.83485 33.3911 5.86005 33.9421 5.91046 34.3522H4.81407ZM2.65908 33.5961C3.70507 33.5961 4.76366 33.0835 4.76366 31.1613H3.54124C1.87774 31.1613 1.1216 31.5842 1.1216 32.4299C1.1216 33.186 1.71391 33.5961 2.65908 33.5961Z" fill="currentColor"></path> <path d="M10.7795 27.304C12.4052 27.304 13.1109 28.3804 13.1109 29.8798L13.1109 34.3522H12.0145V30.1489C12.0145 29.0596 11.649 28.2395 10.4896 28.2395C9.19158 28.2395 8.56147 29.2647 8.56147 30.6102V34.3522H7.46507L7.46507 27.4578L8.56147 27.4578V28.547C9.06556 27.6116 9.90991 27.304 10.7795 27.304Z" fill="currentColor"></path> <path d="M61.0053 34.506C58.9764 34.506 57.8044 33.0579 57.8044 30.905C57.8044 28.7521 58.9764 27.304 61.0053 27.304C62.5554 27.304 63.6392 28.1498 63.9543 29.7004H62.8201C62.5932 28.8162 61.9757 28.2395 60.9675 28.2395C59.5561 28.2395 58.926 29.3416 58.926 30.905C58.926 32.4556 59.5561 33.5577 60.9675 33.5577C62.0135 33.5577 62.5932 32.981 62.8201 32.1096H63.9543C63.6392 33.6602 62.5554 34.506 61.0053 34.506Z" fill="currentColor"></path> <path d="M67.9831 34.506C66.0045 34.506 64.7947 33.1091 64.7947 30.905C64.7947 28.7008 66.0045 27.304 67.9831 27.304C69.949 27.304 71.1714 28.7008 71.1714 30.905C71.1714 33.1091 69.949 34.506 67.9831 34.506ZM67.9831 33.5577C69.2811 33.5577 70.0498 32.5709 70.0498 30.905C70.0498 29.239 69.2811 28.2395 67.9831 28.2395C66.685 28.2395 65.9163 29.239 65.9163 30.905C65.9163 32.5709 66.685 33.5577 67.9831 33.5577Z" fill="currentColor"></path> <path d="M79.8202 27.304C81.6602 27.304 82.0886 28.7905 82.0886 30.0464V34.3522H80.9922V30.0336C80.9922 29.2775 80.7906 28.2395 79.543 28.2395C78.1945 28.2395 77.7787 29.4441 77.7787 30.4949V34.3522H76.6823V30.1361C76.6823 29.3031 76.5058 28.2395 75.2582 28.2395C73.9224 28.2395 73.4687 29.4441 73.4687 30.6743V34.3522H72.3723V27.4578H73.4687V28.5855C73.8846 27.7525 74.5777 27.304 75.5733 27.304C76.7327 27.304 77.2872 27.9191 77.5392 28.6496C78.0307 27.791 78.7616 27.304 79.8202 27.304Z" fill="currentColor"></path> <path d="M86.9598 27.304C88.6611 27.304 89.8583 28.6496 89.8583 30.905C89.8583 33.1476 88.6611 34.506 86.9598 34.506C85.9012 34.506 85.1829 33.9677 84.7418 33.2117V36.9152H83.6454V27.4578H84.7418V28.5983C85.1829 27.8422 85.9012 27.304 86.9598 27.304ZM86.733 33.5577C87.9806 33.5577 88.7367 32.4556 88.7367 30.905C88.7367 29.3544 87.9806 28.2395 86.733 28.2395C85.4853 28.2395 84.6788 29.3416 84.6788 30.905C84.6788 32.4684 85.4853 33.5577 86.733 33.5577Z" fill="currentColor"></path> <path d="M95.6642 34.3522C95.6264 34.0062 95.6012 33.7883 95.5886 33.3526C95.0971 34.0703 94.3032 34.506 93.2446 34.506C92.1734 34.506 90.8502 34.0446 90.8502 32.5325C90.8502 31.1869 91.8962 30.3155 94.278 30.3155H95.5886V30.1873C95.5886 29.3544 95.5382 28.2139 93.9251 28.2139C92.6775 28.2139 92.249 28.9059 92.123 29.6363H91.0266C91.1904 28.2779 92.0978 27.304 93.9755 27.304C96.1683 27.304 96.685 28.6367 96.685 30.0592V32.9041C96.685 33.3911 96.7102 33.9421 96.7606 34.3522H95.6642ZM93.5092 33.5961C94.5552 33.5961 95.6138 33.0835 95.6138 31.1613H94.3914C92.7279 31.1613 91.9718 31.5842 91.9718 32.4299C91.9718 33.186 92.5641 33.5961 93.5092 33.5961Z" fill="currentColor"></path> <path d="M101.63 27.304C103.255 27.304 103.961 28.3804 103.961 29.8798V34.3522H102.865V30.1489C102.865 29.0596 102.499 28.2395 101.34 28.2395C100.042 28.2395 99.4116 29.2647 99.4116 30.6102V34.3522H98.3152V27.4578H99.4116V28.547C99.9157 27.6116 100.76 27.304 101.63 27.304Z" fill="currentColor"></path> <path d="M105.253 35.9797H105.77C106.388 35.9797 106.753 35.9156 106.992 35.262L107.333 34.3522L104.749 27.4578H105.921L107.875 32.9169L109.828 27.4578H111L107.975 35.5055C107.673 36.3257 107.219 36.9152 106.022 36.9152H105.253V35.9797Z" fill="currentColor"></path> <path d="M24.4177 32.9215H24.1876C23.9704 32.9215 23.8042 32.8825 23.6892 32.7913C23.5742 32.7002 23.5103 32.5179 23.5103 32.2315V29.9012C23.5103 29.0941 23.2674 28.4432 22.7946 27.9354C22.3217 27.4277 21.5421 27.1804 20.4686 27.1804C19.4973 27.1804 18.7432 27.4017 18.2192 27.8313C17.6952 28.2739 17.3757 28.8728 17.2863 29.6409H18.986C19.1011 28.8728 19.5867 28.4952 20.4174 28.4952C20.9159 28.4952 21.2737 28.6254 21.4654 28.8858C21.6571 29.1462 21.7594 29.5107 21.7594 29.9793V30.1746H20.3791C19.2928 30.1746 18.462 30.3699 17.8997 30.7735C17.3374 31.177 17.0562 31.7238 17.0562 32.4138C17.0562 33.1168 17.3118 33.6375 17.823 33.976C18.3342 34.3275 18.9349 34.4967 19.6378 34.4967C20.7242 34.4967 21.5293 34.1062 22.0278 33.3121C22.1428 33.6896 22.3345 33.963 22.6029 34.1062C22.8713 34.2624 23.2674 34.3405 23.817 34.3405H24.4177V32.9215ZM20.034 33.1819C19.6506 33.1819 19.3567 33.0908 19.1522 32.9215C18.9349 32.7523 18.8327 32.531 18.8327 32.2576C18.8327 31.6197 19.4206 31.2942 20.6091 31.2942H21.7849C21.7849 31.9451 21.6188 32.4268 21.2737 32.7262C20.9286 33.0257 20.5197 33.1819 20.034 33.1819Z" fill="currentColor"></path> <path d="M25.5156 24.9152V26.5945H27.2665V24.9152H25.5156ZM25.5156 27.3366V34.3405H27.2665V27.3366H25.5156Z" fill="currentColor"></path> <path d="M28.7579 24.9152V34.3405H30.5088V32.3227L31.4034 31.3853L33.3844 34.3405H35.4548L32.592 30.0965L35.1992 27.3366H33.0393L30.5088 30.0444V24.9152H28.7579Z" fill="currentColor"></path> <path d="M36.2865 24.9152V26.5945H38.0374V24.9152H36.2865ZM36.2865 27.3366V34.3405H38.0374V27.3366H36.2865Z" fill="currentColor"></path> <path d="M46.2239 24.9152H44.473V28.3651C44.0001 27.5709 43.2716 27.1804 42.3131 27.1804C41.4057 27.1804 40.6645 27.5058 40.1149 28.1698C39.5653 28.8337 39.2842 29.732 39.2842 30.8386C39.2842 31.9451 39.5653 32.8304 40.1149 33.4943C40.6645 34.1583 41.4057 34.4967 42.3131 34.4967C43.2716 34.4967 44.0001 34.1062 44.473 33.3121V34.3405H46.2239V24.9152ZM42.786 33.0777C42.2109 33.0777 41.7891 32.8694 41.4952 32.4398C41.2012 32.0232 41.0606 31.4895 41.0606 30.8386C41.0606 30.1876 41.2012 29.6539 41.4952 29.2243C41.7891 28.7947 42.2109 28.5864 42.786 28.5864C43.3483 28.5864 43.7828 28.7947 44.1024 29.1982C44.4091 29.6148 44.5625 30.1616 44.5625 30.8386C44.5625 31.5155 44.4091 32.0623 44.1024 32.4659C43.7828 32.8694 43.3483 33.0777 42.786 33.0777Z" fill="currentColor"></path> <path d="M50.7597 34.4967C51.8333 34.4967 52.6768 34.1713 53.303 33.5073C53.9164 32.8434 54.2232 31.9581 54.2232 30.8386C54.2232 29.719 53.9164 28.8337 53.303 28.1698C52.6768 27.5058 51.8333 27.1804 50.7597 27.1804C49.6734 27.1804 48.8299 27.5058 48.2164 28.1698C47.603 28.8337 47.2962 29.719 47.2962 30.8386C47.2962 31.9581 47.603 32.8434 48.2164 33.5073C48.8299 34.1713 49.6734 34.4967 50.7597 34.4967ZM50.7597 33.0777C50.2102 33.0777 49.8012 32.8825 49.5072 32.4919C49.2133 32.1144 49.0727 31.5546 49.0727 30.8386C49.0727 30.1225 49.2133 29.5628 49.5072 29.1722C49.8012 28.7816 50.2102 28.5864 50.7597 28.5864C51.3093 28.5864 51.7182 28.7816 52.0122 29.1722C52.3061 29.5628 52.4467 30.1225 52.4467 30.8386C52.4467 31.5546 52.3061 32.1144 52.0122 32.4919C51.7182 32.8825 51.3093 33.0777 50.7597 33.0777Z" fill="currentColor"></path> </svg></a>
+        </div>
+        <div>
+          <p class="footer__heading">Platform</p>
+          <ul class="footer__list">
+            <li><a href="https://noon.security/features/email-protection">Email Protection</a></li>
+            <li><a href="https://noon.security/features/attack-simulations">Phishing Simulation</a></li>
+            <li><a href="https://noon.security/features/device-protection">Device Protection</a></li>
+            <li><a href="https://noon.security/features/ai-governance">AI Governance</a></li>
+          </ul>
+          <div class="footer__social">
+            <p class="footer__heading">Social</p>
+            <div class="footer__social-links">
+              <a href="https://www.youtube.com/@noonsecurity" target="_blank" rel="noopener">YouTube</a>
+              <a href="https://x.com/noonsecurity" target="_blank" rel="noopener">X</a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="footer__heading">Other</p>
+          <ul class="footer__list">
+            <li><a href="https://noon.security/book/demo">Book a Demo</a></li>
+            <li><a href="https://noon.security/partners/vars">Partners</a></li>
+            <li><a href="https://noon.security/pricing">Pricing</a></li>
+            <li><a href="https://noon.security/contact">Contact</a></li>
+            <li><a href="https://noon.security/press-kit">Press kit</a></li>
+            <li><a href="https://www.aikido.dev/company/careers">Careers</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__heading">Legal</p>
+          <ul class="footer__list">
+            <li><a href="https://cdn.prod.website-files.com/6a9ff290311b798d344a5ff6/6ad8a5f74b899e1295545b4c_Privacy%20Policy%20Version%2021%20October%202026.pdf">Privacy Policy</a></li>
+            <li><a href="https://www.aikido.dev/policies/terms">Terms of Use</a></li>
+            <li><a href="https://cdn.prod.website-files.com/6a9ff290311b798d344a5ff6/6aeb0c1e79e3b3ccdf212f20_MSA%20Nov2026.pdf">Master Subscription Agreement</a></li>
+            <li><a href="https://cdn.prod.website-files.com/6a9ff290311b798d344a5ff6/6aeb0c1f070b347575e2d855_DPA%20Nov2026.pdf">Data Processing Agreement</a></li>
+            <li><a href="https://noon.security/trust-center">Trust Center</a></li>
+            <li><a href="#" data-cookie-prefs>Change Cookie Preferences</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__legal">
+          <p>© 2026 <a href="https://www.aikido.dev/">Aikido Security BV</a> | BE0792914919</p>
+          <p>Keizer Karelstraat 15, 9000, Ghent, Belgium</p>
+          <p>95 Third St, 2nd Fl, San Francisco, CA 94103, US</p>
+          <p>Unit 6.15 Runway East 18 Crucifix Ln, London SE1 3JW UK</p>
+        </div>
+        <div class="footer__compliance">
+          <span>ISO 27001 <b>Compliant</b></span>
+          <span>ISO 42001 <b>Compliant</b></span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================== DEMO TRIGGER + LIGHTBOX ============================== -->
+  <div class="demo-trigger" data-demo-trigger>
+    <button class="demo-trigger__open" type="button" data-lightbox-open aria-label="Play demo video">
+      <img src="assets/img/demo-thumb.avif" alt="">
+      <span class="demo-trigger__label"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke-width="1.5" stroke="currentColor"></path> <path d="M15.9453 12.3948C15.7686 13.0215 14.9333 13.4644 13.2629 14.3502C11.648 15.2064 10.8406 15.6346 10.1899 15.4625C9.9209 15.3913 9.6758 15.2562 9.47812 15.0701C9 14.6198 9 13.7465 9 12C9 10.2535 9 9.38018 9.47812 8.92995C9.6758 8.74381 9.9209 8.60868 10.1899 8.53753C10.8406 8.36544 11.648 8.79357 13.2629 9.64983C14.9333 10.5356 15.7686 10.9785 15.9453 11.6052C16.0182 11.8639 16.0182 12.1361 15.9453 12.3948Z" stroke-width="1.5" stroke-linejoin="round" stroke="currentColor"></path> </svg> Play Demo</span>
+    </button>
+    <button class="demo-trigger__close" type="button" aria-label="Hide demo video" data-demo-close><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M18 6L12 12M12 12L6 18M12 12L18 18M12 12L6 6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"></path> </svg></button>
+  </div>
+
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Noon demo video" data-lightbox data-vimeo-id="1237575721">
+    <div class="lightbox__frame" data-lightbox-frame></div>
+    <button class="lightbox__close" type="button" aria-label="Close video" data-lightbox-close><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M18 6L12 12M12 12L6 18M12 12L18 18M12 12L6 6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"></path> </svg></button>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
