@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "border-accent-on-rounded",
+        "value": "*",
+        "files": [
+          "src/app/globals.css"
+        ],
+        "createdAt": "2026-11-11T19:27:56.451Z",
+        "reason": "agent judgment: .key is a 16px chart legend line swatch with zero height and no border-radius, not a rounded card"
+      }
+    ]
+  }
+}
